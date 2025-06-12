@@ -18,8 +18,7 @@ Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve
 
 ├─ contato.html ← Sobre + formulário de contato
 
-├─ css/
-│ └─ produtosstyle.css + style.css
+├─ css ← produtosstyle.css + style.css
 
 - img, img1.png, img2.png
 
