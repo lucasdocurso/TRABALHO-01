@@ -19,12 +19,9 @@ Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve
 ├─ contato.html ← Sobre + formulário de contato
 
 ├─ css/
-│ └─ produtosstyle.css
+│ └─ produtosstyle.css + style.css
 
-├─ js/
-│ └─ menu-toggle.js
-└─ img/
-└─ img1.png, img2.png
+- img, img1.png, img2.png
 
 
 ---
@@ -35,7 +32,6 @@ Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve
 - Cards com imagens, nome, preço, estoque e hover interativo
 - Botões CTA estilizados com hover
 - Animações (ex: efeito *pulse* em títulos)
-- Acessibilidade: `aria-expanded`, `tabindex`, navegação por teclado
 
 ---
 
