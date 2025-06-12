@@ -1,90 +1,48 @@
-🥗 LMF Hortifruti – Site Responsivo
-📘 Descrição
-Site responsivo para hortifrúti, feito com HTML5, CSS3 e Flexbox, sem frameworks. Exibe produtos, informações de contato e imagens de produtos.
+# 🥗 LMF Hortifruti
 
-🔧 Tecnologias Utilizadas
-HTML5
+Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve — sem frameworks. Apresenta produtos, contato e animações sutis.
 
-CSS3 (Flexbox)
+---
 
-JavaScript leve (toggle do menu mobile)
+## 🔧 Tecnologias
+- HTML5
+- CSS3 (Flexbox, media queries, custom scroll e animações)
 
-📄 Estrutura do Projeto
-css
-Copiar
-Editar
-index.html         ← Página inicial (banner, biografia)
-contato.html       ← Sobre e formulário de contato
-produtos.html      ← Lista de produtos (cards responsivos)
-imgX.png           ← Imagens dos produtos
-css/
-  └ produtosstyle.css
-js/
-  └ menu-toggle.js
-🛠️ Recursos Principais
-Cabeçalho fixo com logo e menu responsivo
+---
 
-Menu mobile com botão hambúrguer e toggle via JS
+## 📁 Estrutura do Projeto
 
-Exibição dos produtos em cards flexíveis com hover e transições suaves
+├─ index.html ← Home (banner, descrição)
+├─ produtos.html ← Catálogo de produtos (grid/carrossel)
+├─ contato.html ← Sobre + formulário de contato
+├─ css/
+│ └─ produtosstyle.css
+├─ js/
+│ └─ menu-toggle.js
+└─ img/
+└─ img1.png, img2.png
 
-Imagens responsivas com object-fit e aspect-ratio
 
-Botões CTA estilizados com hover
+---
 
-Animações sutis (keyframes pulse, hover de elevação)
+## 🚀 Funcionalidades Principais
+- Cabeçalho fixo com logo e menu responsivo (desktop/mobile)
+- Carrossel horizontal de produtos responsivo e visual
+- Cards com imagens, nome, preço, estoque e hover interativo
+- Botões CTA estilizados com hover
+- Animações (ex: efeito *pulse* em títulos)
+- Acessibilidade: `aria-expanded`, `tabindex`, navegação por teclado
 
-Acessibilidade aprimorada (tabindex, aria-expanded)
+---
 
-📱 Responsividade
-Mobile: cards em largura total
+## 📱 Responsividade
+- **Mobile (≤600px):** cards em largura total
+- **Tablet (≤900px):** 2 colunas com `flex-wrap`
+- **Desktop:** 3 colunas sem scroll lateral
 
-Tablet: 2 colunas
+---
 
-Desktop: 3 colunas
-
-Menu mobile aparece via JS com toggle
-
-⚡ Como Executar
-Clone este repositório
-
-Abra index.html, produtos.html ou contato.html no navegador
-
-💡 Possíveis Melhorias Futuras
-Adicionar carrinho de compras
-
-Página de produto individual
-
-Filtros por categoria e preço
-
-Otimização de imagens com srcset
-
-Documentação com instalação e contribuição
-
-🧩 Contribuição
-Contribuições são bem-vindas!
-Para sugerir melhorias, abra uma issue ou pull request.
-
-📄 Licença
-Use a licença desejada (ex: MIT)
-
-Informe claramente no README
-
-Estrutura sugerida (inspirada nas melhores práticas)
-Introdução 🧷
-
-Tecnologias usadas
-
-Conteúdo das páginas
-
-Funcionalidades destacadas
-
-Responsividade
-
-Instruções para rodar
-
-Melhorias futuras
-
-Contribuição
-
-Licença
+## 🛠️ Como Rodar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/usuario/lmf-hortifruti.git
