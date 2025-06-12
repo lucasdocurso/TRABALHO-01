@@ -13,13 +13,21 @@ Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve
 ## 📁 Estrutura do Projeto
 
 ├─ index.html ← Home (banner, descrição)
+
 ├─ produtos.html ← Catálogo de produtos (grid/carrossel)
+
 ├─ contato.html ← Sobre + formulário de contato
+
 ├─ css/
+
 │ └─ produtosstyle.css
+
 ├─ js/
+
 │ └─ menu-toggle.js
+
 └─ img/
+
 └─ img1.png, img2.png
 
 
