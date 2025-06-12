@@ -29,7 +29,6 @@ Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) — sem framework
 - Cabeçalho fixo com logo e menu responsivo (desktop/mobile)
 - Carrossel horizontal de produtos responsivo e visual
 - Cards com imagens, nome, preço, estoque e hover interativo
-- Botões CTA estilizados com hover
 - Animações (ex: efeito *pulse* em títulos)
 
 ---
