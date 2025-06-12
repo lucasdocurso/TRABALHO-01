@@ -1,6 +1,6 @@
 # 🥗 LMF Hortifruti
 
-Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) e JavaScript leve — sem frameworks. Apresenta produtos, contato e animações sutis.
+Site responsivo de hortifrúti feito com HTML5, CSS3 (Flexbox) — sem frameworks. Apresenta produtos, contato e animações sutis.
 
 ---
 
